@@ -143,6 +143,66 @@ html {
 }
 .head-btns {
   gap: 3rem;
+  justify-content: center;
+  margin-bottom: 3rem;
 }
-.btn-h-1 {
+.common-btn:link,
+.common-btn:visited {
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.4rem;
+  padding: 1.5rem 5rem;
+  background-color: var(--primary-purple);
+  border-radius: 30px;
+  color: #fff;
 }
+.common-btn:active,
+.common-btn:hover {
+  background-color: var(--primary-blue);
+}
+
+.play-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: var(--primary-yellow);
+  color: #fff;
+  font-size: 2.4rem;
+  margin-right: 1rem;
+}
+.btn-h-2:link,
+.btn-h-2:visited {
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #fff;
+  font-size: 1.4rem;
+  border-radius: 30px;
+  padding: 0.5rem 3rem;
+  font-weight: 700;
+  color: #121212;
+}
+.btn-h-2:hover,
+.btn-h-2:active {
+  box-shadow: 2px 2px 2px #ccc;
+}
+ul {
+  list-style: none;
+  justify-content: space-between;
+}
+li {
+  gap: 1rem;
+}
+.check-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #fff;
+  background-color: var(--primary-purple);
+  border-radius: 50%;
+}
+/* to add the other sections */
+
+/*
+1rem= 16px 
+1rem=10px
+
+*/
